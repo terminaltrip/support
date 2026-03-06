@@ -1,5 +1,5 @@
 $someData = @(
-    [PSCustomObject]@{a = "http://184.107.178.101:8040/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest"; b = "ScreenConnect.ClientSetup.msi"}
+    [PSCustomObject]@{a = "http://desktop-64educv:8040/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest"; b = "ScreenConnect.ClientSetup.msi"}
   );
 
   foreach ($i in $someData) {
